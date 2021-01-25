@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "server": ["./server"]
+    },
+    "target": "ES2019",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "declaration": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types"],
+    "rootDir": ".",
+    "outDir": "./dist"
+  },
+  "include": ["functions"]
+}

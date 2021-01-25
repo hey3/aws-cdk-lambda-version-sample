@@ -1,0 +1,46 @@
+{
+  "name": "aws-cdk-lambda-version-sample",
+  "description": "AWS CDK で lambda のバージョンを管理するサンプル",
+  "version": "1.0.0",
+  "private": true,
+  "author": "hey3",
+  "keywords": [
+    "aws",
+    "aws-cdk",
+    "typescript",
+    "aws-lambda"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hey3/aws-cdk-lambda-version-sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hey3/aws-cdk-lambda-version-sample/issues"
+  },
+  "bin": {
+    "aws-cdk-lambda-version-sample": "bin/aws-cdk-lambda-version-sample.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.86.0",
+    "source-map-support": "0.5.19"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.86.0",
+    "@aws-cdk/aws-lambda": "1.86.0",
+    "@types/aws-lambda": "8.10.71",
+    "@types/jest": "26.0.20",
+    "@types/node": "12.12.6",
+    "aws-cdk": "1.86.0",
+    "jest": "26.6.3",
+    "ts-jest": "26.4.4",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.3"
+  }
+}
