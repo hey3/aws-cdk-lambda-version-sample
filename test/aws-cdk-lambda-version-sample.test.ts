@@ -17,6 +17,6 @@ describe('Sample Stack', () => {
     expectCDK(stack).to(countResources('AWS::Lambda::Version', 1))
   })
   it('should have lambda alias resource', () => {
-    expectCDK(stack).to(countResources('AWS::Lambda::Alias', 2))
+    expectCDK(stack).to(countResources('AWS::Lambda::Alias', 1))
   })
 })
