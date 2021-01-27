@@ -31,9 +31,10 @@ export class AwsCdkLambdaVersionSampleStack extends cdk.Stack {
       version,
     })
 
-    new lambda.Alias(this, 'Prod-Alias', {
-      aliasName: 'prod',
-      version: lambda.Version.fromVersionArn(this, 'Prod-Version', `${fn.functionArn}:3`),
-    })
+    // NOTE: If you want to lock the version of prod, please uncomment the following and specify the version.
+    // new lambda.Alias(this, 'Prod-Alias', {
+    //   aliasName: 'prod',
+    //   version: lambda.Version.fromVersionArn(this, 'Prod-Version', `${fn.functionArn}:3`),
+    // })
   }
 }
